@@ -5,8 +5,8 @@ public class lesson {
         int[] nums = {-1, 2, 1, -4};
         int target = 6;
 
-        // 1. Критически важный шаг: сортировка по возрастанию
-        Arrays.sort(nums); // nums станет: [-4, -1, 1, 2]
+        
+        Arrays.sort(nums); 
         System.out.println("Отсортированный массив: " + Arrays.toString(nums));
 
 
